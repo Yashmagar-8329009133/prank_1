@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: grey;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.exam-container {
+    background: black;
+    color:white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.exam-container h1 {
+    margin-bottom: 15px;
+    
+}
+
+.exam-container p {
+    margin-bottom: 25px;
+
+}
+
+.exam-btn {
+    text-decoration: none;
+    background: white;
+    color:black;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.exam-btn:hover {
+    background: #c33764;
+}
